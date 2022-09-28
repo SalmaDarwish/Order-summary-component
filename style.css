@@ -1,0 +1,87 @@
+
+body{
+    font-family : "Red Hat Display";
+}
+.background{
+    height: 100vh;
+    background-position: top;   
+    background-color:  hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    position: relative;    
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size:100% 40%;
+    
+    
+
+}
+.background::before{
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    background-position:bottom;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+.box{
+    width: 400px;
+    height: auto;
+    box-shadow: 0 8px 50px -20px hsl(224, 23%, 55%);
+    border-radius: 15px;
+}
+.price-box{
+    background-color: hsl(225, 100%, 98%);
+}
+.hero{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.data{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    width: 90%;
+    margin: auto;
+}
+.music{
+    width: 45px;
+    height: 45px;
+}
+.plan{
+    font-size: 15px;
+}
+.number{
+    color:hsl(224, 23%, 55%)
+}
+a{
+    font-size: 13px;
+}
+.blue-button{
+    background-color: hsl(245, 75%, 52%);
+    border: 1px hsl(245, 75%, 52%);
+    padding: 12px 75px 12px 75px;
+    font-size: 14px;
+    box-shadow: 0 12px 20px -10px hsl(224, 23%, 55%);
+    border-radius: 10px;
+
+}
+.cancel-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color:hsl(224, 23%, 55%) ;
+}
+.blue-button:hover{
+    background-color:hsl(224, 60%, 55%)
+}
+a:hover{
+    text-decoration: none;
+}
+.cancel-btn:hover{
+    color: black;
+}
